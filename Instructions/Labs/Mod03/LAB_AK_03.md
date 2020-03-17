@@ -6,8 +6,6 @@
 
 #### Task 1: Sign in to the Azure Portal
 
-1. On the Start screen, click the **Internet Explorer** tile.
-
 1. Go to *(<https://portal.azure.com>)*.
 
 1. In the email address box, type the email address of your Microsoft account.
@@ -124,9 +122,9 @@
 
 1. In the **App Services** list, click the **Web App** that you just created.
 
-1. Observe the **Essentials** panel at the top of the blade.
+1. Observe the **Overview** panel at the top of the blade.
 
-1. Under the **Url** header, click the hyperlink to the Web App.
+1. Under the **Url / Browse** header, click the hyperlink to the Web App.
 
 1. Verify that the Web App is running at the specified address.
 
@@ -138,11 +136,11 @@
 
 #### Task 1: Open an existing ASP.NET web application project with Visual Studio 2017
 
-1. On the Start screen, click the **Desktop** tile.
+1. Copy files from https://github.com/aautere/20532-DevelopingMicrosoftAzureSolutions/tree/master/Allfiles/Mod03/Labfiles/Starter to your local computer. You can use Git for example to clone https://github.com/aautere/20532-DevelopingMicrosoftAzureSolutions/ repo
 
-1. On the taskbar, click the **File Explorer** icon.
+1. After copying files / cloning the repo, go to the folder where Starer files are (/Allfiles/Mod03/Labfiles/Starter)
 
-1. In the Libraries window, go to **Allfiles (F):\\Mod03\\Labfiles\\Starter\\**, and then double-click **Contoso.Events.sln**.
+1. Open **Contoso.Events.sln** with Visual Studio 201X.
 
 1. In the **Solution Explorer** pane, right-click the **Contoso.Events.Management** project, and then click **Set as Startup Project**.
 
@@ -168,7 +166,7 @@
 
 1. In the download dialog box, click the arrow to the right of the **Save** button, and then click **Save As**.
 
-1. In the **Save As** dialog box, go to **Allfiles (F):\\Mod03\\Labfiles\\Starter**, and then click **Save**.
+1. In the **Save As** dialog box, go to **Starter** folder, and then click **Save**.
 
 #### Task 3: Publish the ASP.NET web application to the Azure Web App
 
@@ -176,7 +174,7 @@
 
 1. In the **Pick a publish target** window, click the **Import Profile...** button.
 
-1. In the **Import Publish Settings File** window, go to **Allfiles (F):\\Mod03\\Labfiles\\Starter**, and then double-click your previously saved publish profile.
+1. In the **Import Publish Settings File** window, go to **Starter**, and then double-click your previously saved publish profile.
 
 1. The publish process will start automatically. Wait for the publish process to complete.
 
