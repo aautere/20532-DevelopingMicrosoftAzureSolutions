@@ -325,9 +325,9 @@
 
 1. In your *Web App*'s blade, locate the **Settings** section.
 
-1. In the **Settings** section, select the **Application settings** option.
+1. In the **Settings** section, select the **Configuration** option.
 
-1. In the **Application settings** blade, scroll-down to the **Application settings** section.
+1. In the **Configuration** blade, select to the **Application settings** tab.
 
 1. Click the **+ Add new setting** button.
 
@@ -351,6 +351,8 @@
 
 > **Results**: After completing this exercise, you will have configured custom app settings by using a Web.config file and the Azure Portal.
 
+1. Think what might happen if you updated the appsetting.json file to 6 and published the solution to the web app. 
+
 ## Exercise 4: Deploy a Console Application to an Azure Function App
 
 #### Task 1: Create Azure Function Project in Visual Studio
@@ -365,11 +367,11 @@
 
 	a. Select the **Azure Functions** option from the list of templates.
 
-	a. In the **Name** dialog box, enter the value **Contoso.Events.API**.
+	a. In the **Name/Project name** dialog box, enter the value **Contoso.Events.API**.
 
-	a. In the **Location** dialog box, enter the value **F:\\Mod03\\Labfiles\\Starter**.
+	a. In the **Location** dialog box, verify location to be in **Starter** folder.
 
-	a. Click the **OK** button. 
+	a. Click the **OK/Create** button. 
 
 1. In the **New Project - Contoso.Events.API** dialog, perform the following actions:
 
@@ -389,15 +391,17 @@
 
 1. In the **Pick a publish target** window, perform the following actions:
 
-	a. Click the **Azure Function App** option.
+	a. Click the **Azure Function Consumption Plan** option.
 	
 	a. Select the **Select Existing** radio button.
 
-	a. Click the **Publish** button.
+	a. Click the **Publish / Create** button.
 
 1. In the **App Service** dialog, expand the **MOD03WEBA** resource group and select the **Function App** you created earlier in this lab.
 
 1. Click the **OK** button.
+
+1. Click **Publish** button.
 
 1. The publish process will start automatically. Wait for the publish process to complete.
 
@@ -429,7 +433,7 @@
 
 1. Observe that the Function App creates an echo response with the text ``Hello, 20532 Student``.
 
-1. Close the **Internet Explorer** application.
+1. Close the **browser** application.
 
 1. Close the **Contoso.Events - Microsoft Visual Studio** application.
 
